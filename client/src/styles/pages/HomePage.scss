@@ -1,0 +1,28 @@
+.list-item:hover {
+  background-color: rgba(blue, 0.5);
+  transition: 0.5s;
+}
+
+.deleteBtn {
+  display: none !important;
+}
+
+.list-item:hover .deleteBtn {
+  display: inline !important;
+}
+
+.list-item:hover .list-item--size {
+  display: none;
+}
+
+.downloadBtn {
+  display: none !important;
+}
+
+.list-item:hover .downloadBtn {
+  display: inline !important;
+}
+
+.list-item:hover .list-item--date {
+  display: none;
+}

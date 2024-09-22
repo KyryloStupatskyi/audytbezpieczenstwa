@@ -1,0 +1,16 @@
+.auth-form {
+  background-color: #fff;
+  padding: 40px !important;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 400px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
